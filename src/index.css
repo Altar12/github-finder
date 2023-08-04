@@ -11,3 +11,324 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+}
+
+.spinner {
+  text-align: center;
+  position: absolute;
+  left: 400px;
+}
+
+.spinner img {
+  width: 500px;
+}
+
+.navbar {
+  background-color: rgb(128, 0, 21);
+  color: white;
+  padding: 20px 10px;
+  font-weight: bold;
+  position: fixed;
+  z-index: 3;
+  opacity: 0.95;
+  width: 100%;
+}
+
+.logo {
+  margin-right: 10px;
+  
+}
+
+.navbar ul {
+ list-style: none;
+ display: inline-block;
+ margin-top: 0;
+ margin-bottom: 0;
+ margin-left: 950px;
+
+}
+
+.navbar li {
+  float: left;
+  margin-right: 15px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: white;
+}
+
+.form {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  top: 70px;
+  left: 400px;
+}
+
+.alert {
+  color: rgba(255, 0, 0, 0.849);
+}
+
+.user-input {
+  width: 500px;
+  height: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
+  line-height: 20px;
+  border-radius: 15px;
+}
+
+.search-button {
+  display: block;
+  border-radius: 10px;
+  height: 30px;
+  width: 100px;
+  margin: 8px auto;
+  color: white;
+  background-color: rgb(128, 0, 21);
+  font-weight: bold;
+  box-shadow: 0 5px gray;
+  cursor: pointer;
+}
+
+.search-button:active {
+  box-shadow: none;
+  position: relative;
+  top: 5px;
+}
+
+.clear-button {
+  display: block;
+  border-radius: 10px;
+  height: 30px;
+  line-height: 30px;
+  width: 120px;
+  margin: 10px auto;
+  color: white;
+  background-color: rgb(128, 0, 21);
+  font-weight: bold;
+  box-shadow: 0 5px gray;
+  cursor: pointer;
+}
+
+.clear-button:active {
+  box-shadow: none;
+  position: relative;
+  top: 5px;
+}
+
+.user-items {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  position: absolute;
+  top: 200px;
+}
+
+.user-item {
+  display: inline-block;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 20%;
+  border-radius: 10px;
+  border: 2px solid rgb(128, 0, 21);
+  box-shadow: 8px 8px rgb(128, 0, 21);
+  transition: all 2s;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.user-item:hover {
+  box-shadow: none;
+  position: relative;
+  top: 8px;
+  left: 8px;
+}
+
+.user-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+
+.user-item h3 {
+  color: rgb(128, 0, 21);
+}
+
+.fetch-user-btn {
+  display: inline-block;
+  border-radius: 10px;
+  height: 30px;
+  line-height: 30px;
+  width: 100px;
+  margin: 8px auto;
+  background-color: rgb(128, 0, 21);
+  font-weight: bold;
+  box-shadow: 0 5px gray;
+  cursor: pointer;
+}
+
+.fetch-user-btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 5px;
+}
+
+.user-link, .home-link, .github-link {
+  text-decoration: none;
+  color: white;
+}
+
+.user-details {
+  position: absolute;
+  width: 100%;
+  top: 80px;
+}
+
+.back-home-button, .visit-github-button {
+  display: inline-block;
+  border-radius: 10px;
+  height: 30px;
+  line-height: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 8px auto;
+  color: white;
+  background-color: rgb(128, 0, 21);
+  font-weight: bold;
+  box-shadow: 0 5px gray;
+  cursor: pointer;
+}
+
+.back-home-button:active, .visit-github-button:active {
+  box-shadow: none;
+  position: relative;
+  top: 5px;
+}
+
+.hireable {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.fa-check {
+  color: green;
+}
+
+.fa-times {
+  color: red;
+}
+
+.user-card {
+  border: 2px solid maroon;
+  border-radius: 10px;
+  width: 80%;
+  margin: 10px auto;
+  height: 350px;
+}
+
+
+.user-card-left {
+  padding: 20px 20px;
+  text-align: center;
+  margin-right: 20px;
+  float: left;
+}
+
+.user-card-left img {
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+}
+
+.user-card-right {
+  height: 100%;
+  padding-top: 10px;
+}
+
+.fa-twitter {
+  color: rgb(0, 153, 255);
+  margin-right: 5px;
+}
+
+.fa-envelope {
+  color: orange;
+  margin-right: 5px;
+}
+
+.user-attribute, .app-attribute {
+  font-weight: bold;
+}
+
+.stat-section {
+  text-align: center;
+}
+
+.user-stats {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 8px;
+  color: white;
+}
+
+.yellow {
+  background-color: rgb(255, 166, 0);
+}
+
+.orange {
+  background-color: rgb(255, 60, 0);
+}
+
+.red {
+  background-color: rgba(255, 0, 0, 0.795);
+}
+
+.violet {
+  background-color: rgb(238, 130, 202);
+}
+
+.repos {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.repo {
+  border: 2px solid red;
+  border-radius: 5px;
+  width: 70%;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  margin: 10px auto;
+  background-color: rgb(128, 0, 21);
+}
+
+.repo:hover {
+  opacity: 0.9;
+}
+
+.repo a {
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+
+.about {
+  border: 2px solid rgb(128, 0, 21);
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin: 30px auto;
+  width: 70%;
+  position: absolute;
+  top: 50px;
+}
